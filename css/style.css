@@ -1,3 +1,4 @@
+/* Variaveis e reset */
 :root {
   --primaria: #2c3e50;
   --secundaria: #3498db;
@@ -20,6 +21,7 @@ body {
   color: var(--texto);
 }
 
+/* Container padrão */
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -55,7 +57,7 @@ header {
   text-decoration: none;
   font-weight: bold;
 }
-
+/* Seções */
 section {
   padding: 4vh 0;
 }
@@ -94,17 +96,8 @@ h2 {
   padding: 2rem;
   border-radius: 10px;
   text-align: center;
-}
 
-blockquote {
-  border-left: 5px solid var(--secundaria);
-  padding-left: 1rem;
-  margin: 1rem 0;
-  font-style: italic;
-  background-color: #f4f4f4;
-  padding: 1rem;
-}
-
+/* Formulario */
 form {
   display: flex;
   flex-direction: column;
