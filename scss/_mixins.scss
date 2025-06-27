@@ -1,10 +1,11 @@
+@use 'variaveis';
 @mixin espacamento-padrao {
-    padding: $espacamento;
-    margin-bottom: calc($espacamento / 2);
+    padding: variaveis.$espacamento;
+    margin-bottom: calc(variaveis.$espacamento / 2);
 }
 
 @mixin botao-estilizado{
-    background-color: $cor-primaria;
+    background-color: variaveis.$cor-primaria;
     color: white;
     padding: 0.8rem;
     border: none;
@@ -13,6 +14,6 @@
     font-weight: bold;
 
     &:hover {
-        background-color: $cor-secundaria;
+        background-color: variaveis.$cor-secundaria;
     }
 }

@@ -1,3 +1,4 @@
+@use 'variaveis';
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,8 +6,8 @@
 }
 
 body {
-  font-family: $font-padrao;
+  font-family: variaveis.$font-primaria;
   line-height: 1.6;
-  background-color: $cor-fundo;
-  color: $cor-texto;
+  background-color: variaveis.$cor-fundo;
+  color: variaveis.$cor-texto;
 }

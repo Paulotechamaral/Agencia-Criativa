@@ -1,46 +1,32 @@
-.container{
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0 $espacamento;
-}
-.header{
-    background-color: $cor-primaria;
-    color: rgb(187, 4, 4);
-    padding: 1rem 0;
-}
+@use 'variaveis';
+.header {
+  background: variaveis.$cor-primaria;
+  color: white;
+  padding: 1rem 0;
 
-&_container{
+  &__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-}
+  }
 
-&__logo{
+  &__logo {
     font-size: 1.8rem;
-}
+  }
 
-&__nav{
-    &-menu{
-        list-style: none;
-        display: flex;
-        gap: 1.5rem;
-        flex-wrap: wrap;
+  &__nav {
+    &-menu {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
 
-        a {
-            color: green;
-            text-decoration: none;
-            font-weight: bold;
-            
-        }
+      a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+      }
     }
-}
-
-section{
-    padding: 4vh 0;
-    &__titulo{
-        font-size: 2rem;
-        color: $cor-primaria;
-        margin-bottom: 1rem;
-    }
+  }
 }
